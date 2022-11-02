@@ -1,0 +1,15 @@
+name: PixieDust
+author: MCMagicDev
+version: 2.0
+depend: [MCMagicCore]
+description: An MCMagic Arcade Game
+main: us.mcmagic.pixiedust.PixieDust
+commands:
+  hub:
+    description: Sends you to the Arcade
+    permission: mcmagic.spawn
+    aliases: lobby
+  startgame:
+    description: Start game
+    permission: arcade.bypass
+    permission-message: §cYou can't do this!
